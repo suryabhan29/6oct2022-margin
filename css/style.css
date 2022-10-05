@@ -1,0 +1,54 @@
+.p{
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    position: relative;
+    margin:  100px auto;
+    transform: rotate(0deg);
+    transition-property:transform;
+    transition-duration: 5s;
+    transition-timing-function: linear;    
+}
+.p:hover{
+    transform: rotate(45deg);
+    
+}
+.c{
+    width: 400px;
+    height: 400px;
+    
+}
+.green{
+    background: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+.orange{
+    background: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+
+}
+.purple{
+    background: purple;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-bottom-left-radius:400px ;
+    border-top-right-radius:400px ;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    top:0px;
+    right:0px;
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+
+}
